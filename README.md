@@ -741,7 +741,7 @@ If you find this repository helpful, please consider giving it a ⭐!
 
 ### Happy Coding! 🐍✨
 
-*Made with ❤️ for the Python community*
+*Made with Brutaltools for the Python community*
 
 **[⬆ Back to Top](#-python-learning-repository)**
 
