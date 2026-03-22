@@ -729,7 +729,7 @@ The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
 ```
 
----
+----
 
 ## 🌟 Star History
 
@@ -737,7 +737,7 @@ If you find this repository helpful, please consider giving it a ⭐!
 
 <div align="center">
 
----
+----
 
 ### Happy Coding! 🐍✨
 
