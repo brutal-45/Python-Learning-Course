@@ -110,7 +110,7 @@ Python Rankings (2024):
 git clone https://github.com/brutal-45/Python-Learning-Course.git
 
 # Navigate to the directory
-cd python-learning-repo
+cd Python-Learning-Course.git
 
 # Verify Python installation
 python --version  # or python3 --version
