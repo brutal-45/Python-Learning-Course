@@ -107,7 +107,7 @@ Python Rankings (2024):
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/python-learning-repo.git
+git clone https://github.com/brutal-45/Python-Learning-Course.git
 
 # Navigate to the directory
 cd python-learning-repo
