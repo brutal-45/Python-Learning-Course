@@ -3,7 +3,7 @@ Module: basics.py
 Topic: Function Basics
 Level: Intermediate
 
-This file teaches you about:
+This file teaches you about:   
 - Defining functions
 - Calling functions
 - Return values
