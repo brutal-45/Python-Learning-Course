@@ -31,7 +31,7 @@ class Person:
             name: The person's name
             age: The person's age
         """
-        self.name = name
+        self.name = person
         self.age = age
 
     def greet(self):
