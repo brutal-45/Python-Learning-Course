@@ -43,7 +43,7 @@ print("=" * 60)
 import os
 
 # Create a sample file for demonstration
-sample_content = """Line 1: Hello, World!
+sample_content = """Line 1: Hellow, World!
 Line 2: Python is awesome
 Line 3: File handling in Python
 Line 4: Easy and powerful
