@@ -4,7 +4,7 @@ Topic: Input and Output Operations
 Level: Beginner
 
 This file teaches you how to:
-- Take user input with input()
+- Take user input with input() 
 - Format and display output
 - Handle different input types
 - Work with command-line arguments
