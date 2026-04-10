@@ -507,7 +507,7 @@ data = {'age': 25, 'name': 'A', 'email': 'invalid'}
 is_valid, errors = validate_input(data, validators)
 print(f"  Valid: {is_valid}")
 for error in errors:
-    print(f"  Error: {error}")
+    print(f"  Error: {error}") 
 
 # =============================================================================
 # MAIN EXECUTION
