@@ -3,7 +3,7 @@ Module: comments.py
 Topic: Comments and Documentation
 Level: Beginner
 
-This file teaches you about:
+This file teaches you about: 
 - Single-line comments
 - Multi-line comments
 - Docstrings
