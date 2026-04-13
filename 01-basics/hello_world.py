@@ -2,7 +2,7 @@
 Module: hello_world.py
 Topic: Your First Python Program
 Level: Beginner 
-
+ 
 This file teaches you how to write and run your first Python program.
 It covers the basics of Python syntax, printing output, and program structure.
 """
