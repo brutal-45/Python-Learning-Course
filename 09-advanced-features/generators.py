@@ -8,7 +8,7 @@ This file teaches you about:
 - Generator expressions
 - yield from
 - Generator pipelines
-- Memory efficiency
+- Memory efficiency 
 """
 
 # =============================================================================
