@@ -6,7 +6,7 @@ Level: Intermediate
 This file teaches you about:
 - Single inheritance
 - Multiple inheritance
-- Method overriding
+- Method overriding 
 - super() function
 - Method Resolution Order (MRO)
 """
