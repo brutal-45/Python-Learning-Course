@@ -6,7 +6,7 @@ This module covers advanced Python features including generators, iterators, con
 
 ## 🎯 Learning Objectives
 
-- Create and use generators
+- Create and use generators 
 - Implement custom iterators
 - Build context managers
 - Understand descriptors and metaclasses
