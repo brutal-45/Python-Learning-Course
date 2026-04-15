@@ -8,7 +8,7 @@ Object-Oriented Programming (OOP) is a programming paradigm based on the concept
 
 - Understand classes and objects
 - Implement inheritance and polymorphism
-- Apply encapsulation and abstraction
+- Apply encapsulation and abstraction 
 - Use special (dunder) methods
 - Work with class and static methods
 - Understand properties and descriptors
