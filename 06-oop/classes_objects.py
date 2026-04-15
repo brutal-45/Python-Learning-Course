@@ -9,7 +9,7 @@ This file teaches you about:
 - Instance methods
 - The __init__ method
 - Creating and using objects
-"""
+""" 
 
 # =============================================================================
 # SECTION 1: BASIC CLASS DEFINITION
