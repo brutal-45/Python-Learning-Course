@@ -8,7 +8,7 @@ This file teaches you about:
 - Float type (float)
 - Complex type (complex)
 - Mathematical operations
-- Type conversion
+- Type conversion 
 - Math module functions
 """
 
