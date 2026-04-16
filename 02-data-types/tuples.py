@@ -8,7 +8,7 @@ This file teaches you about:
 - Tuple indexing and slicing
 - Tuple methods
 - Tuple unpacking
-- Named tuples
+- Named tuples 
 - When to use tuples vs lists
 """
 
