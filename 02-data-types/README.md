@@ -6,7 +6,7 @@ This module explores Python's built-in data types in depth. Understanding data t
 
 ## 🎯 Learning Objectives
 
-- Master Python's numeric types (int, float, complex)
+- Master Python's numeric types (int, float, complex) 
 - Work with strings and string methods
 - Understand and manipulate lists
 - Use tuples for immutable sequences
