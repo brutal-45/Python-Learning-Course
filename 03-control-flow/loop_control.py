@@ -7,7 +7,7 @@ This file teaches you about:
 - break statement
 - continue statement
 - pass statement
-- Loop else with break
+- Loop else with break 
 - Return from loops
 """
 
