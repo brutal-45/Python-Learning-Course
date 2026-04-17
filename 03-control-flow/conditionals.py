@@ -5,7 +5,7 @@ Level: Beginner
 
 This file teaches you about:
 - if statement
-- if-else statement
+- if-else statement 
 - if-elif-else statement
 - Ternary operator
 - Nested conditionals
