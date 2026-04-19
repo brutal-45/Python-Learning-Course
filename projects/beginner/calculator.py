@@ -1,7 +1,7 @@
 """
 Project: Calculator
 Level: Beginner
-Description: A fully functional calculator supporting basic and advanced operations.
+Description: A fully functional calculator supporting basic and advanced operations. 
 
 This project demonstrates:
 - Functions and return values
