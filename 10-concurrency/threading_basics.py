@@ -6,7 +6,7 @@ Level: Advanced
 This file teaches you about:
 - Creating threads
 - Thread synchronization
-- Lock, RLock, Semaphore
+- Lock, RLock, Semaphore 
 - Thread pools
 - Thread-safe operations
 """
