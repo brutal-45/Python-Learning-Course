@@ -6,7 +6,7 @@ Level: Intermediate
 This file teaches you about:
 - Creating a module
 - Module structure
-- __name__ == '__main__'
+- __name__ == '__main__' 
 - Module best practices
 """
 
