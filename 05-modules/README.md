@@ -10,7 +10,7 @@ This module covers how to organize code into reusable modules and packages, work
 - Understand Python's import system
 - Work with the Python Standard Library
 - Create packages
-- Manage dependencies with pip and virtual environments
+- Manage dependencies with pip and virtual environments 
 
 ## 📂 Module Contents
 
