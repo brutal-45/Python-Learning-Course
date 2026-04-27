@@ -24,7 +24,7 @@ This module covers exception handling in Python, from basic try-except blocks to
 **3-4 hours** for complete understanding
 
 ## ✅ Prerequisites
-
+ 
 - Completion of Modules 01-05
 - Understanding of functions and classes
 
