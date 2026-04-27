@@ -4,7 +4,7 @@ Topic: Try-Except Exception Handling
 Level: Intermediate
 
 This file teaches you about:
-- Basic try-except
+- Basic try-except 
 - Multiple exceptions
 - finally and else clauses
 - Exception information
