@@ -9,7 +9,7 @@ Thank you for your interest in contributing! This document provides guidelines f
 If you find a bug or have a suggestion:
 1. Check if the issue already exists
 2. Create a new issue with a clear description
-3. Include code examples if applicable
+3. Include code examples if applicable 
 
 ### Submitting Changes
 
