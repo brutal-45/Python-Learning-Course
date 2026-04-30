@@ -1,11 +1,11 @@
 """
 Solutions: Variables and Data Types
 Level: Beginner
-Description: Complete solutions for variables exercises.
+Description: Complete solutions for variables exercises. 
 """
 
 # =============================================================================
-# SOLUTION 1: Variable Assignment
+# SOLUTION 1: Variable Assingment 
 # =============================================================================
 
 
