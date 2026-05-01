@@ -13,7 +13,7 @@ Exercise 1.1: Create variables to store the following information:
 - Your name (string)
 - Your age (integer)
 - Your height in meters (float)
-- Whether you're a student (boolean)
+- Whether you're a student (boolean) 
 
 Then print a formatted message using these variables.
 """
