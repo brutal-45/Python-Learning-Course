@@ -5,7 +5,7 @@ Description: Practice problems for conditionals and loops.
 """
 
 # =============================================================================
-# EXERCISE 1: FizzBuzz
+# EXERCISE 1: FizzBuzz 
 # =============================================================================
 
 """
