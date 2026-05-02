@@ -10,7 +10,7 @@ This project demonstrates:
 - Functions
 - Game logic
 """
-
+ 
 import random
 import time
 
