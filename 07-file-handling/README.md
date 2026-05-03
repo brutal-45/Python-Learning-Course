@@ -17,7 +17,7 @@ This module covers file operations in Python, from basic reading and writing to 
 | File | Topic | Description |
 |------|-------|-------------|
 | [basics.py](basics.py) | File Basics | Opening, reading, writing files |
-
+ 
 ## ⏱️ Estimated Time
 
 **3-4 hours** for complete understanding
