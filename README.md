@@ -10,7 +10,7 @@
 
 *From Zero to Hero: Your Complete Python Journey Starts Here*
 
-[🚀 Quick Start](#-quick-start) • [📚 Curriculum](#-curriculum) • [🎯 Projects](#-projects) • [💻 Exercises](#-exercises) • [🤝 Contributing](#-contributing)
+[🚀 Quick Start](#-quick-start) • [📚 Curriculum](#-curriculum) • [🎯 Projects](#-projects) • [💻 Exercises](#-exercises) • [🤝 Contributing](#-contributing) 
 
 </div>
 
