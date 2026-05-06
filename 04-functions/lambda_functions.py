@@ -5,7 +5,7 @@ Level: Intermediate
 
 This file teaches you about:
 - Lambda function syntax
-- When to use lambdas
+- When to use lambdas 
 - map(), filter(), reduce()
 - Lambda with sorted()
 - Lambda pitfalls
