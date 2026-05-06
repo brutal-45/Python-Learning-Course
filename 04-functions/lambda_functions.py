@@ -400,7 +400,7 @@ print(f"  Correct: {[f(10) for f in functions]}")
 
 # Pitfall 2: Overly complex lambdas
 # Don't write complex lambdas like this:
-# complex_lambda = lambda x: (x**2 if x > 0 else -x**2) if isinstance(x, (int, float)) else None
+# complex_lambda = lambda x: (x**2 if x > 0 else -x**2) if isinstance(x, (int, float)) else None  
 
 # Instead, use a proper function:
 def proper_function(x):
