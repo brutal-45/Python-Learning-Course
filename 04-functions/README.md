@@ -6,12 +6,12 @@ Functions are reusable blocks of code that perform specific tasks. This module c
 
 ## 🎯 Learning Objectives
 
-- Define and call functions
-- Work with parameters and arguments
-- Understand scope and namespaces
-- Create and use lambda functions
-- Apply decorators to functions
-- Use built-in functions effectively
+- Define and call functions.
+- Work with parameters and arguments.
+- Understand scope and namespaces.
+- Create and use lambda functions.
+- Apply decorators to functions.
+- Use built-in functions effectively.
 
 ## 📂 Module Contents
 
