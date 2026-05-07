@@ -20,7 +20,7 @@
 
 - [About This Repository](#-about-this-repository)
 - [Why Learn Python?](#-why-learn-python)
-- [Quick Start](#-quick-start)
+- [Quick Start](#-quick-start) 
 - [Curriculum](#-curriculum)
   - [Beginner Level](#beginner-level)
   - [Intermediate Level](#intermediate-level)
