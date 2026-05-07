@@ -6,7 +6,7 @@ A curated collection of resources to enhance your Python learning journey.
 """
 
 # =============================================================================
-# OFFICIAL RESOURCES
+# OFFICIAL RESOURCES 
 # =============================================================================
 
 OFFICIAL_RESOURCES = {
