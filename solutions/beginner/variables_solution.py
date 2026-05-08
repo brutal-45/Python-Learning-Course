@@ -5,7 +5,7 @@ Description: Complete solutions for variables exercises.
 """
 
 # =============================================================================
-# SOLUTION 1: Variable Assingment 
+# SOLUTION 1: Variable Assingment  
 # =============================================================================
 
 
