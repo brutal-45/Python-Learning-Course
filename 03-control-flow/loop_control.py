@@ -6,7 +6,7 @@ Level: Beginner
 This file teaches you about:
 - break statement
 - continue statement
-- pass statement
+- pass statement 
 - Loop else with break 
 - Return from loops
 """
