@@ -1,5 +1,5 @@
 """
-Project: Number Guessing Game
+Project: Number Guessing Game 
 Level: Beginner
 Description: A simple number guessing game with different difficulty levels.
 
