@@ -103,7 +103,7 @@ class Calculator:
 
     def sin(self, a: float, degrees: bool = False) -> float:
         """Calculate sine of a."""
-        if degrees:
+        if degrees: 
             a = math.radians(a)
         result = math.sin(a)
         unit = "°" if degrees else "rad"
