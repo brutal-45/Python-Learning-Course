@@ -5,7 +5,7 @@
 This module covers the fundamental building blocks of Python programming. By the end of this module, you will understand how to write, run, and structure basic Python programs.
 
 ## 🎯 Learning Objectives
-
+ 
 - Understand Python's history and philosophy
 - Set up your Python development environment
 - Write and execute your first Python programs
