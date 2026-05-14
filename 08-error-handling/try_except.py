@@ -6,7 +6,7 @@ Level: Intermediate
 This file teaches you about:
 - Basic try-except 
 - Multiple exceptions
-- finally and else clauses
+- finally and else clauses 
 - Exception information
 - Best practices
 """
