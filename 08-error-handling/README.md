@@ -1,6 +1,6 @@
 # Module 08: Error Handling
 
-## 📋 Overview
+## 📋 Overview 
 
 This module covers exception handling in Python, from basic try-except blocks to creating custom exceptions.
 
