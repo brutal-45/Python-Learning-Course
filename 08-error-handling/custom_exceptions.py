@@ -4,7 +4,7 @@ Topic: Creating Custom Exceptions
 Level: Intermediate
 
 This file teaches you about:
-- Creating custom exception classes
+- Creating custom exception classes 
 - Exception hierarchy
 - Adding custom attributes
 - Best practices for custom exceptions
