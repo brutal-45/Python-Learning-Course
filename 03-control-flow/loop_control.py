@@ -4,7 +4,7 @@ Topic: Loop Control Statements
 Level: Beginner
 
 This file teaches you about:
-- break statement
+- break statement 
 - continue statement
 - pass statement 
 - Loop else with break 
