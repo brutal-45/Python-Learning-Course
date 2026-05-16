@@ -1,6 +1,6 @@
 """
 Module: conditionals.py
-Topic: Conditional Statements in Python
+Topic: Conditional Statements in Python 
 Level: Beginner
 
 This file teaches you about:
