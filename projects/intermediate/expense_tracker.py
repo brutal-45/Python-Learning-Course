@@ -1,4 +1,4 @@
-""" 
+"""
 Project: Expense Tracker
 Level: Intermediate
 Description: A command-line expense tracking application.
