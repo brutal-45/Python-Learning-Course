@@ -17,7 +17,7 @@ This module covers exception handling in Python, from basic try-except blocks to
 | File | Topic | Description |
 |------|-------|-------------|
 | [try_except.py](try_except.py) | Try-Except | Basic exception handling |
-| [custom_exceptions.py](custom_exceptions.py) | Custom Exceptions | Creating your own exceptions |
+| [custom_exceptions.py](custom_exceptions.py) | Custom Exceptions | Creating your own exceptions | 
 
 ## ⏱️ Estimated Time
 
