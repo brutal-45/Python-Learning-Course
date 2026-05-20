@@ -2,7 +2,7 @@
 
 ## 📋 Overview
 
-This module covers advanced Python features including generators, iterators, context managers, and metaclasses.
+This module covers advanced Python features including generators, iterators, context managers, and metaclasses. 
 
 ## 🎯 Learning Objectives
 
