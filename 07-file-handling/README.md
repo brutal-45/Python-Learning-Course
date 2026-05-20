@@ -1,5 +1,5 @@
 # Module 07: File Handling
-
+ 
 ## 📋 Overview
 
 This module covers file operations in Python, from basic reading and writing to advanced file manipulation.
