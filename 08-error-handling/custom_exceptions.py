@@ -11,7 +11,7 @@ This file teaches you about:
 """
 
 # =============================================================================
-# SECTION 1: BASIC CUSTOM EXCEPTION
+# SECTION 1: BASIC CUSTOM EXCEPTION 
 # =============================================================================
 
 print("=" * 60)
