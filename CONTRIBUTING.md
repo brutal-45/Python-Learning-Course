@@ -15,7 +15,7 @@ If you find a bug or have a suggestion:
 
 1. **Fork the Repository**
    ```bash
-   git clone https://github.com/yourusername/python-learning-repo.git
+   git clone https://github.com/brutal-45/python-learning-repo.git
    ```
 
 2. **Create a Branch**
