@@ -8,7 +8,7 @@ It covers the basics of Python syntax, printing output, and program structure.
 """
 
 # =============================================================================
-# SECTION 1: YOUR FIRST PYTHON PROGRAM
+# SECTION 1: YOUR FIRST PYTHON PROGRAM 
 # =============================================================================
 # The classic "Hello, World!" program is traditionally the first program
 # written when learning a new programming language.
