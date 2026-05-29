@@ -6,7 +6,7 @@ This module covers file operations in Python, from basic reading and writing to 
 
 ## 🎯 Learning Objectives
 
-- Open, read, and write files
+- Open, read, and write files 
 - Work with different file modes
 - Handle file exceptions
 - Work with CSV and JSON files
