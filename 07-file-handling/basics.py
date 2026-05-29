@@ -3,7 +3,7 @@ Module: basics.py
 Topic: File Handling Basics
 Level: Intermediate
 
-This file teaches you about:
+This file teaches you about: 
 - Opening and closing files
 - Reading files
 - Writing files
