@@ -11,7 +11,7 @@ Description: Practice problems for functions, decorators, and advanced concepts.
 """
 Exercise 1.1: Create a flexible calculator function that:
 - Accepts any number of numbers
-- Accepts an operation parameter (sum, avg, min, max, product)
+- Accepts an operation parameter (sum, avg, min, max, product) 
 - Returns the result
 """
 
