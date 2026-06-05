@@ -42,7 +42,7 @@ asyncio.run(hello())
 print("\n" + "=" * 60)
 print("MULTIPLE COROUTINES")
 print("=" * 60)
-
+ 
 
 async def fetch_data(name, delay):
     """Simulate fetching data."""
