@@ -2,7 +2,7 @@
 
 ## 📋 Overview
 
-This module covers exception handling in Python, from basic try-except blocks to creating custom exceptions.
+This module covers exception handling in Python, from basic try-except blocks to creating custom exceptions. 
 
 ## 🎯 Learning Objectives
 
