@@ -1,6 +1,6 @@
 # Module 01: Python Basics
 
-## 📋 Overview
+## 📋 Overview 
 
 This module covers the fundamental building blocks of Python programming. By the end of this module, you will understand how to write, run, and structure basic Python programs.
 
