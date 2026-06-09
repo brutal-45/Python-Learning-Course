@@ -11,7 +11,7 @@ This file teaches you about:
 """
 
 # =============================================================================
-# SECTION 1: SINGLE-LINE COMMENTS 
+# SECTION 1: SINGLE-LINE COMMENTS
 # =============================================================================
 
 # This is a single-line comment
