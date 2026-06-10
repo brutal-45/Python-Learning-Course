@@ -1,5 +1,5 @@
 """
-Solutions: Variables and Data Types
+Solutions: Variables and Data Types 
 Level: Beginner
 Description: Complete solutions for variables exercises. 
 """
