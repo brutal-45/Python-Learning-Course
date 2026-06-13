@@ -1,6 +1,6 @@
 # Module 05: Modules and Packages
 
-## 📋 Overview 
+## 📋 Overview
 
 This module covers how to organize code into reusable modules and packages, work with the Python Standard Library, and manage external packages.
 
