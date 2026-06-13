@@ -7,7 +7,7 @@ This file teaches you about essential standard library modules.
 """
 
 # =============================================================================
-# SECTION 1: OS MODULE 
+# SECTION 1: OS MODULE
 # =============================================================================
 
 print("=" * 60)
