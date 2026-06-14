@@ -7,7 +7,7 @@ This file teaches you about:
 - for loops
 - while loops
 - range() function
-- enumerate() function 
+- enumerate() function
 - zip() function
 - Nested loops
 - Loop else clause
