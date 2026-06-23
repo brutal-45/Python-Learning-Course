@@ -1,4 +1,4 @@
-""" 
+"""
 Exercises: Variables and Data Types
 Level: Beginner
 Description: Practice problems for variables, data types, and basic operations.
