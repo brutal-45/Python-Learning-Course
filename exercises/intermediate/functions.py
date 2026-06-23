@@ -5,7 +5,7 @@ Description: Practice problems for functions, decorators, and advanced concepts.
 """
 
 # =============================================================================
-# EXERCISE 1: FUNCTION ARGUMENTS 
+# EXERCISE 1: FUNCTION ARGUMENTS
 # =============================================================================
 
 """
