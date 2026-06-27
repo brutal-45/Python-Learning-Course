@@ -1,4 +1,4 @@
-# Module 01: Python Basics
+# Module 01: Python Basics 
 
 ## 📋 Overview 
 
