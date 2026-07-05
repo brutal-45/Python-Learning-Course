@@ -1,4 +1,4 @@
-""" 
+"""
 Module: decorators_intro.py
 Topic: Introduction to Decorators
 Level: Intermediate
