@@ -1,4 +1,4 @@
-# Module 04: Functions 
+# Module 04: Functions
 
 ## 📋 Overview
 
