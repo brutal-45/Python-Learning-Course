@@ -1,4 +1,4 @@
-""" 
+"""
 Module: loops.py
 Topic: Loops in Python
 Level: Beginner
