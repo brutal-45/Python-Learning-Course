@@ -1,4 +1,4 @@
-""" 
+"""
 Module: conditionals.py
 Topic: Conditional Statements in Python
 Level: Beginner
