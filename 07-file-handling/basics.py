@@ -1,4 +1,4 @@
-"""
+""" 
 Module: basics.py
 Topic: File Handling Basics
 Level: Intermediate
