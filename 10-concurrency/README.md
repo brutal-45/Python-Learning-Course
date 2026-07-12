@@ -1,4 +1,4 @@
-# Module 10: Concurrency 
+# Module 10: Concurrency
 
 ## 📋 Overview
 
