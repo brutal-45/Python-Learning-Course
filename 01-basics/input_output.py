@@ -1,4 +1,4 @@
-""" 
+"""
 Module: input_output.py
 Topic: Input and Output Operations
 Level: Beginner
