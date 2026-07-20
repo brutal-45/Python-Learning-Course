@@ -1,4 +1,4 @@
-""" 
+"""
 Module: variables.py
 Topic: Variables and Data Types
 Level: Beginner
