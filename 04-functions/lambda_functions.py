@@ -1,4 +1,4 @@
-"""
+""" 
 Module: lambda_functions.py
 Topic: Lambda Functions
 Level: Intermediate
