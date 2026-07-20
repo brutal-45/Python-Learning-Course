@@ -1,4 +1,4 @@
-""" 
+"""
 Module: operators.py
 Topic: Python Operators
 Level: Beginner
