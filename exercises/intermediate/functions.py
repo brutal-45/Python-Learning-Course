@@ -1,4 +1,4 @@
-"""
+""" 
 Exercises: Functions
 Level: Intermediate
 Description: Practice problems for functions, decorators, and advanced concepts.
