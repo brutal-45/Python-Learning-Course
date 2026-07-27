@@ -1,4 +1,4 @@
-""" 
+"""
 Project: Web Scraper
 Level: Intermediate
 Description: A web scraper that extracts data from websites using requests and BeautifulSoup.
