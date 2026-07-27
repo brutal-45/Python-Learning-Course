@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🐍 Python Learning Repository 
+# 🐍 Python Learning Repository
 
 ### A Comprehensive Guide to Master Python Programming
 
