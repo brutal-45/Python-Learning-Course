@@ -1,12 +1,12 @@
-""" 
+"""
 Module: conditionals.py
 Topic: Conditional Statements in Python
 Level: Beginner
 
 This file teaches you about:
 - if statement
-- if-else statement 
-- if-elif-else statement 
+- if-else statement
+- if-elif-else statement
 - Ternary operator
 - Nested conditionals
 - Logical operators in conditions
@@ -286,54 +286,104 @@ print("=" * 60)
 
 # Structural pattern matching (Python 3.10+)
 # This is similar to switch-case in other languages
+# Note: This requires Python 3.10+, so we use a version check
 
-status_code = 404
+import sys
+if sys.version_info >= (3, 10):
+    status_code = 404
 
-match status_code:
-    case 200:
+    match status_code:
+        case 200:
+            message = "OK"
+        case 201:
+            message = "Created"
+        case 400:
+            message = "Bad Request"
+        case 404:
+            message = "Not Found"
+        case 500:
+            message = "Internal Server Error"
+        case _:
+            message = "Unknown status"
+
+    print(f"Status {status_code}: {message}")
+
+    # Match with patterns
+    point = (3, 4)
+else:
+    # Fallback for Python < 3.10
+    status_code = 404
+    if status_code == 200:
         message = "OK"
-    case 201:
+    elif status_code == 201:
         message = "Created"
-    case 400:
+    elif status_code == 400:
         message = "Bad Request"
-    case 404:
+    elif status_code == 404:
         message = "Not Found"
-    case 500:
+    elif status_code == 500:
         message = "Internal Server Error"
-    case _:
+    else:
         message = "Unknown status"
 
-print(f"Status {status_code}: {message}")
+    print(f"Status {status_code}: {message} (using if-elif for Python < 3.10)")
 
-# Match with patterns
-point = (3, 4)
+    # Match with patterns - fallback
+    point = (3, 4)
 
-match point:
-    case (0, 0):
+if sys.version_info >= (3, 10):
+    match point:
+        case (0, 0):
+            print("Origin")
+        case (x, 0):
+            print(f"On x-axis at {x}")
+        case (0, y):
+            print(f"On y-axis at {y}")
+        case (x, y):
+            print(f"Point at ({x}, {y})")
+
+    # Match with guards
+    number = 15
+
+    match number:
+        case n if n < 0:
+            result = "negative"
+        case n if n == 0:
+            result = "zero"
+        case n if n > 0 and n <= 10:
+            result = "small positive"
+        case n if n > 10:
+            result = "large positive"
+        case _:
+            result = "unknown"
+
+    print(f"\n{number} is {result}")
+else:
+    # Fallback for Python < 3.10
+    x, y = point
+    if x == 0 and y == 0:
         print("Origin")
-    case (x, 0):
+    elif y == 0:
         print(f"On x-axis at {x}")
-    case (0, y):
+    elif x == 0:
         print(f"On y-axis at {y}")
-    case (x, y):
+    else:
         print(f"Point at ({x}, {y})")
 
-# Match with guards
-number = 15
-
-match number:
-    case n if n < 0:
+    # Match with guards - fallback
+    number = 15
+    if number < 0:
         result = "negative"
-    case n if n == 0:
+    elif number == 0:
         result = "zero"
-    case n if n > 0 and n <= 10:
+    elif number > 0 and number <= 10:
         result = "small positive"
-    case n if n > 10:
+    elif number > 10:
         result = "large positive"
-    case _:
+    else:
         result = "unknown"
 
-print(f"\n{number} is {result}")
+    print(f"\n{number} is {result} (using if-elif for Python < 3.10)")
 
 # =============================================================================
 # SECTION 9: COMMON PATTERNS
