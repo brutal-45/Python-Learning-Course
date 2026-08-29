@@ -99,4 +99,4 @@ jobs:
           exit 1
         fi
 
-        echo "✅ All Vercel deployment prerequisites met!"
+        echo "✅ All Vercel deployment prerequisites met!" 
