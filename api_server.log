@@ -1,0 +1,7 @@
+2026-08-29 08:03:04,446 - __main__ - INFO - API Server initialized
+2026-08-29 08:03:04,446 - __main__ - INFO - Request received
+2026-08-29 08:03:04,446 - __main__ - INFO - Processing request: /api/v1/status
+2026-08-29 08:03:04,446 - __main__ - INFO - Request received
+2026-08-29 08:03:04,446 - __main__ - INFO - Processing request: /api/v1/users
+2026-08-29 08:03:04,446 - __main__ - INFO - Request received
+2026-08-29 08:03:04,446 - __main__ - INFO - Processing request: /api/v1/products

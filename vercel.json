@@ -2,26 +2,18 @@
   "version": 2,
   "builds": [
     {
-      "src": "api/__init__.py",
+      "src": "api/vercel_handler.py",
       "use": "@vercel/python"
+    },
+    {
+      "src": "index.html",
+      "use": "@vercel/static"
     }
   ],
   "routes": [
     {
-      "src": "/api/health",
-      "dest": "api/__init__.py:health"
-    },
-    {
-      "src": "/api/status",
-      "dest": "api/__init__.py:status"
-    },
-    {
-      "src": "/api/lessons",
-      "dest": "api/__init__.py:lessons"
-    },
-    {
-      "src": "/api/run",
-      "dest": "api/__init__.py:run"
+      "src": "/api/(.*)",
+      "dest": "/api/vercel_handler.py"
     },
     {
       "src": "/(.*)",

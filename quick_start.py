@@ -1,4 +1,4 @@
-""" 
+"""
 Python Learning Repository - Quick Start Guide
 ==============================================
 
@@ -78,13 +78,15 @@ print()
 print("\n📚 MODULE 04: FUNCTIONS")
 print("-" * 40)
 
+
 def greet(name, greeting="Hello"):
     return f"{greeting}, {name}!"
+
 
 print(f"  {greet('World')}")
 
 # Lambda
-square = lambda x: x ** 2
+square = lambda x: x**2
 print(f"  Lambda: square(5) = {square(5)}")
 
 # =============================================================================
@@ -107,16 +109,19 @@ print(f"  random.randint(1, 100) = {random.randint(1, 100)}")
 print("\n📚 MODULE 06: OOP")
 print("-" * 40)
 
+
 class Animal:
     def __init__(self, name):
         self.name = name
-    
+
     def speak(self):
         return "..."
+
 
 class Dog(Animal):
     def speak(self):
         return f"{self.name} says Woof!"
+
 
 dog = Dog("Buddy")
 print(f"  {dog.speak()}")
@@ -152,11 +157,13 @@ else:
 print("\n📚 MODULE 09: ADVANCED FEATURES")
 print("-" * 40)
 
+
 # Generator
 def countdown(n):
     while n > 0:
         yield n
         n -= 1
+
 
 print(f"  Generator: {list(countdown(5))}")
 
@@ -187,7 +194,7 @@ projects = [
     "Calculator",
     "Expense Tracker",
     "Task Manager",
-    "Web Scraper"
+    "Web Scraper",
 ]
 
 for project in projects:
