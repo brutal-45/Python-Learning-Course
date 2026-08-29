@@ -9,7 +9,7 @@ This file teaches you about:
 - Instance methods
 - The __init__ method
 - Creating and using objects
-""" 
+"""
 
 # =============================================================================
 # SECTION 1: BASIC CLASS DEFINITION
@@ -31,7 +31,7 @@ class Person:
             name: The person's name
             age: The person's age
         """
-        self.name = person
+        self.name = name
         self.age = age
 
     def greet(self):
