@@ -510,4 +510,4 @@ if __name__ == "__main__":
     print("\n" + "=" * 60)
     print("✅ You've learned about classes and objects!")
     print("📚 Next: Learn about inheritance in inheritance.py")
-    print("=" * 60)
+    print("=" * 60) 
