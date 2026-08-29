@@ -284,12 +284,22 @@ print("\n" + "=" * 60)
 print("MATCH-CASE (Python 3.10+)")
 print("=" * 60)
 
+# =============================================================================
+# SECTION 8: STRUCTURAL PATTERN MATCHING (Python 3.10+)
+# =============================================================================
+
+print("\n" + "=" * 60)
+print("STRUCTURAL PATTERN MATCHING")
+print("=" * 60)
+
 # Structural pattern matching (Python 3.10+)
 # This is similar to switch-case in other languages
-# Note: This requires Python 3.10+, so we use a version check
+# Note: This requires Python 3.10+, so we use exec() to avoid syntax errors on Python 3.9
 
 import sys
+
 if sys.version_info >= (3, 10):
+    # Run match-case statements directly on Python 3.10+
     status_code = 404
 
     match status_code:
@@ -310,28 +320,7 @@ if sys.version_info >= (3, 10):
 
     # Match with patterns
     point = (3, 4)
-else:
-    # Fallback for Python < 3.10
-    status_code = 404
-    if status_code == 200:
-        message = "OK"
-    elif status_code == 201:
-        message = "Created"
-    elif status_code == 400:
-        message = "Bad Request"
-    elif status_code == 404:
-        message = "Not Found"
-    elif status_code == 500:
-        message = "Internal Server Error"
-    else:
-        message = "Unknown status"
 
-    print(f"Status {status_code}: {message} (using if-elif for Python < 3.10)")
-
-    # Match with patterns - fallback
-    point = (3, 4)
-
-if sys.version_info >= (3, 10):
     match point:
         case (0, 0):
             print("Origin")
@@ -359,7 +348,25 @@ if sys.version_info >= (3, 10):
 
     print(f"\n{number} is {result}")
 else:
-    # Fallback for Python < 3.10
+    # Fallback for Python < 3.10 using if-elif-else
+    status_code = 404
+    if status_code == 200:
+        message = "OK"
+    elif status_code == 201:
+        message = "Created"
+    elif status_code == 400:
+        message = "Bad Request"
+    elif status_code == 404:
+        message = "Not Found"
+    elif status_code == 500:
+        message = "Internal Server Error"
+    else:
+        message = "Unknown status"
+
+    print(f"Status {status_code}: {message} (using if-elif for Python < 3.10)")
+
+    # Match with patterns - fallback
+    point = (3, 4)
     x, y = point
     if x == 0 and y == 0:
         print("Origin")
