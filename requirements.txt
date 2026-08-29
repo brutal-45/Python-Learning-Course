@@ -1,0 +1,33 @@
+# Python Learning Repository - Dependencies
+# ==========================================
+# This file lists the dependencies for the Python learning repository.
+# Install with: pip install -r requirements.txt
+
+# Code Quality Tools
+flake8>=6.0.0           # Linting
+black>=23.0.0           # Code formatting
+mypy>=1.0.0             # Static type checking
+isort>=5.12.0           # Import sorting
+
+# Testing Frameworks
+pytest>=7.0.0           # Testing framework
+pytest-cov>=4.0.0       # Coverage reporting
+pytest-xdist>=3.0.0     # Parallel test execution
+
+# Documentation Tools (optional)
+# sphinx>=6.0.0         # Documentation generator
+# sphinx-rtd-theme>=1.2.0  # ReadTheDocs theme
+
+# Development Tools (optional)
+# pre-commit>=3.0.0     # Git hooks
+# ipython>=8.0.0        # Enhanced interactive shell
+# jupyter>=1.0.0        # Jupyter notebooks
+
+# Project Dependencies (for advanced projects)
+requests>=2.31.0        # HTTP library (for web scraping projects)
+beautifulsoup4>=4.12.0  # HTML parsing (for web scraping)
+pandas>=2.0.0           # Data manipulation (for data projects)
+numpy>=1.24.0           # Numerical computing
+
+# Note: Core Python learning materials don't require external dependencies.
+# These are primarily for advanced projects and code quality tools.
