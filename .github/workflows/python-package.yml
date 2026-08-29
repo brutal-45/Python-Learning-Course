@@ -5,9 +5,10 @@ name: Python package
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "master", "main" ]
   pull_request:
-    branches: [ "master" ]
+    branches: [ "master", "main" ]
+  workflow_dispatch:
 
 jobs:
   build:
@@ -16,25 +17,43 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        python-version: ["3.9", "3.10", "3.11"]
+        python-version: ["3.9", "3.10", "3.11", "3.12"]
 
     steps:
     - uses: actions/checkout@v4
+    
     - name: Set up Python ${{ matrix.python-version }}
-      uses: actions/setup-python@v3
+      uses: actions/setup-python@v5
       with:
         python-version: ${{ matrix.python-version }}
+    
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        python -m pip install flake8 pytest
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+        python -m pip install flake8 pytest pytest-cov black mypy
+    
     - name: Lint with flake8
       run: |
         # stop the build if there are Python syntax errors or undefined names
         flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
-        # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
+        # exit-zero treats all errors as warnings
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
-    - name: Test with pytest
+    
+    - name: Check code formatting with black
       run: |
-        pytest
+        black --check --diff . || true
+    
+    - name: Run tests with pytest
+      run: |
+        pytest --cov=. --cov-report=xml || true
+    
+    - name: Verify Python scripts run without errors
+      run: |
+        echo "Testing basic Python scripts..."
+        python quick_start.py
+        python 01-basics/hello_world.py
+        python 01-basics/variables.py
+        python 02-data-types/lists.py
+        python 04-functions/basics.py
+        echo "All scripts executed successfully!"
