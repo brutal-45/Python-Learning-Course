@@ -57,3 +57,4 @@ jobs:
         python 02-data-types/lists.py
         python 04-functions/basics.py
         echo "All scripts executed successfully!"
+

@@ -14,6 +14,7 @@ pytest>=7.0.0           # Testing framework
 pytest-cov>=4.0.0       # Coverage reporting
 pytest-xdist>=3.0.0     # Parallel test execution
 
+
 # Documentation Tools (optional)
 # sphinx>=6.0.0         # Documentation generator
 # sphinx-rtd-theme>=1.2.0  # ReadTheDocs theme
