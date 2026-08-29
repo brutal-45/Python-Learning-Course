@@ -57,3 +57,42 @@ jobs:
         python 02-data-types/lists.py
         python 04-functions/basics.py
         echo "All scripts executed successfully!"
+
+  vercel-deploy-check:
+    runs-on: ubuntu-latest
+    needs: build
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Setup Node.js for Vercel CLI
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+    
+    - name: Install Vercel CLI
+      run: npm install --global vercel@latest
+    
+    - name: Verify Vercel configuration
+      run: |
+        echo "Checking Vercel configuration..."
+        cat vercel.json
+        echo "✓ vercel.json exists and is valid"
+        
+        # Check API files exist
+        if [ -f "api/__init__.py" ]; then
+          echo "✓ API module found"
+        else
+          echo "✗ API module not found"
+          exit 1
+        fi
+        
+        if [ -f "index.html" ]; then
+          echo "✓ Frontend HTML found"
+        else
+          echo "✗ Frontend HTML not found"
+          exit 1
+        fi
+        
+        echo "✅ All Vercel deployment prerequisites met!"

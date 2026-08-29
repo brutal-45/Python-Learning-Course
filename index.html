@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Learning Repository</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            max-width: 800px;
+            width: 100%;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        }
+        
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+        
+        .subtitle {
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 1.1em;
+        }
+        
+        .status-badge {
+            display: inline-block;
+            background: #4CAF50;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        
+        .api-section {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        
+        .endpoint {
+            background: white;
+            border-left: 4px solid #667eea;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+        
+        .endpoint-code {
+            font-family: 'Courier New', monospace;
+            background: #2d3748;
+            color: #68d391;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 10px 0;
+            overflow-x: auto;
+        }
+        
+        .btn {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            margin: 5px;
+            transition: all 0.3s ease;
+        }
+        
+        .btn:hover {
+            background: #5568d3;
+            transform: translateY(-2px);
+        }
+        
+        .response-area {
+            background: #1a202c;
+            color: #68d391;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+            font-family: 'Courier New', monospace;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+        
+        .loading {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+        }
+        
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+        
+        .feature-card {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        
+        .feature-icon {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🐍 Python Learning Repository</h1>
+        <p class="subtitle">Interactive Python tutorials and projects - Now deployed on Vercel!</p>
+        
+        <div class="status-badge" id="statusBadge">● API Online</div>
+        
+        <div class="features">
+            <div class="feature-card">
+                <div class="feature-icon">📚</div>
+                <strong>10 Lessons</strong>
+                <p>From basics to advanced</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">💻</div>
+                <strong>Projects</strong>
+                <p>Hands-on coding</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">✅</div>
+                <strong>Exercises</strong>
+                <p>Practice & solutions</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🚀</div>
+                <strong>Deployed</strong>
+                <p>On Vercel platform</p>
+            </div>
+        </div>
+        
+        <div class="api-section">
+            <h2>🔌 Available API Endpoints</h2>
+            
+            <div class="endpoint">
+                <strong>Health Check</strong>
+                <div class="endpoint-code">GET /api/health</div>
+                <button class="btn" onclick="testEndpoint('/api/health')">Test Endpoint</button>
+            </div>
+            
+            <div class="endpoint">
+                <strong>System Status</strong>
+                <div class="endpoint-code">GET /api/status</div>
+                <button class="btn" onclick="testEndpoint('/api/status')">Test Endpoint</button>
+            </div>
+            
+            <div class="endpoint">
+                <strong>List Lessons</strong>
+                <div class="endpoint-code">GET /api/lessons</div>
+                <button class="btn" onclick="testEndpoint('/api/lessons')">Test Endpoint</button>
+            </div>
+            
+            <div class="endpoint">
+                <strong>Run Script</strong>
+                <div class="endpoint-code">GET /api/run?script=hello_world</div>
+                <button class="btn" onclick="testEndpoint('/api/run?script=hello_world')">Test Endpoint</button>
+            </div>
+        </div>
+        
+        <div class="response-area" id="responseArea">
+            Click any "Test Endpoint" button to see the API response...
+        </div>
+    </div>
+    
+    <script>
+        async function testEndpoint(endpoint) {
+            const responseArea = document.getElementById('responseArea');
+            responseArea.textContent = 'Loading...';
+            
+            try {
+                const response = await fetch(endpoint);
+                const data = await response.json();
+                
+                responseArea.textContent = JSON.stringify(data, null, 2);
+                
+                // Update status badge
+                const statusBadge = document.getElementById('statusBadge');
+                if (response.ok) {
+                    statusBadge.style.background = '#4CAF50';
+                    statusBadge.textContent = '● API Online';
+                } else {
+                    statusBadge.style.background = '#f44336';
+                    statusBadge.textContent = '● API Error';
+                }
+            } catch (error) {
+                responseArea.textContent = `Error: ${error.message}\n\nNote: This demo works when deployed on Vercel.\nLocal testing requires running: vercel dev`;
+            }
+        }
+        
+        // Auto-test health endpoint on load
+        window.addEventListener('load', () => {
+            setTimeout(() => testEndpoint('/api/health'), 500);
+        });
+    </script>
+</body>
+</html>

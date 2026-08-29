@@ -1,0 +1,34 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/__init__.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/health",
+      "dest": "api/__init__.py:health"
+    },
+    {
+      "src": "/api/status",
+      "dest": "api/__init__.py:status"
+    },
+    {
+      "src": "/api/lessons",
+      "dest": "api/__init__.py:lessons"
+    },
+    {
+      "src": "/api/run",
+      "dest": "api/__init__.py:run"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ],
+  "env": {
+    "PYTHON_VERSION": "3.11"
+  }
+}
